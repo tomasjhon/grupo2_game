@@ -12,4 +12,4 @@ Feature: ahorcado
     Given abro la aplicacion
     When ingreso la letra "a"
     When presiono el boton de ingreso
-    Then leo la letra ingresada "a"
+    Then el chequeo de letra devuelve "Esta la letra"

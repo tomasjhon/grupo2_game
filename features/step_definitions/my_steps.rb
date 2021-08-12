@@ -18,6 +18,7 @@ When("presiono el boton de ingreso") do
     click_button "Ingresar"
 end
 
-Then("leo la letra ingresada {string}") do |string|
-    pending # Write code here that turns the phrase above into concrete actions
+Then("el chequeo de letra devuelve {string}") do |mensaje|
+    expect(page.body).to have_css "div#isLetra", text: mensaje
 end
+
