@@ -1,26 +1,31 @@
-![](https://github.com/kleer-la/template2_6_5/workflows/Ruby/badge.svg)
+<!-- ![](https://github.com/kleer-la/template2_6_5/workflows/Ruby/badge.svg)
 
 para ver el reporte de analisis de codigo:
 
-https://kleer-la.github.io/template2_6_5/overview.html#
+https://kleer-la.github.io/template2_6_5/overview.html# -->
 
+![](https://github.com/tomasjhon/grupo2_game/workflows/Ruby/badge.svg)
+
+para ver el reporte de analisis de codigo:
+
+https://tomasjhon.github.io/grupo2_game/overview.html#
 
 ### Para el setup sin docker:
 
 install ruby 2.6.5
 
 Setup:
-	sudo apt-get install phantomjs
+sudo apt-get install phantomjs
 
 on the project root:
-	gem install bundler
-	bundle install
+gem install bundler
+bundle install
 
 to run app:
-	ruby app.rb
+ruby app.rb
 
 for unit test:
-	rspec
+rspec
 
 for acceptance test:
-	cucumber
+cucumber
